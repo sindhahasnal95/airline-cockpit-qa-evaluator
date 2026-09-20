@@ -1,0 +1,31 @@
+call_id,agent_name,transcript,expected_call_type
+1,Flight Alpha,"Pilot: Chennai Ground, Alpha 101, stand 24, information Bravo, request pushback and start. ATC: Alpha 101, pushback approved, face west, start at your discretion.",pushback_request
+2,Flight Bravo,"Pilot: Chennai Ground, Bravo 202, ready to taxi, runway 07, information Charlie. ATC: Bravo 202, taxi to runway 07 via Alpha and Bravo, hold short runway 07.",taxi_clearance
+3,Flight Charlie,"Pilot: Chennai Tower, Charlie 303, holding short runway 07, ready for departure. ATC: Charlie 303, runway 07, cleared for takeoff, wind 080 degrees 8 knots.",takeoff_clearance
+4,Flight Delta,"Pilot: Chennai Tower, Delta 404, request landing information. ATC: Delta 404, runway 07 in use, wind 060 degrees 10 knots, cleared to land runway 07.",landing_clearance
+5,Flight Echo,"Pilot: Chennai Approach, Echo 505, descending through 4000 feet for ILS runway 07. ATC: Echo 505, descend 2500 feet, cleared ILS approach runway 07.",approach_clearance
+6,Flight Foxtrot,"Pilot: Chennai Departure, Foxtrot 606, passing 3000 feet, climbing 7000 feet. ATC: Foxtrot 606, radar identified, climb flight level 150.",departure_instruction
+7,Flight Golf,"Pilot: Chennai Center, Golf 707, maintaining flight level 240, request direct waypoint KODAI. ATC: Golf 707, cleared direct KODAI.",route_change
+8,Flight Hotel,"Pilot: Chennai Approach, Hotel 808, experiencing moderate turbulence. ATC: Hotel 808, report if unable to maintain altitude; you may descend to 5000 feet.",turbulence_report
+9,Flight India,"Pilot: Chennai Approach, India 909, we have weather ahead and request deviation 20 miles left. ATC: India 909, deviation left approved, advise when able to resume route.",weather_deviation
+10,Flight Juliet,"Pilot: Chennai Tower, Juliet 110, going around. ATC: Juliet 110, roger, climb to 3000 feet, runway heading, contact approach.",go_around
+11,Flight Kilo,"Pilot: Chennai Ground, Kilo 121, request taxi to the maintenance area. ATC: Kilo 121, taxi to maintenance via Charlie, hold short of taxiway Delta.",maintenance_taxi
+12,Flight Lima,"Pilot: Chennai Tower, Lima 132, bird activity observed near runway 07. ATC: Lima 132, roger, runway inspection vehicle is being dispatched.",bird_hazard
+13,Flight Mike,"Pilot: Chennai Approach, Mike 143, minimum fuel, request priority landing. ATC: Mike 143, roger, priority handling approved, continue approach runway 07.",fuel_priority
+14,Flight November,"Pilot: Chennai Tower, November 154, unable takeoff due to a technical warning, remaining on the runway. ATC: November 154, stop and hold position, emergency vehicles are responding.",technical_issue
+15,Flight Oscar,"Pilot: Chennai Ground, Oscar 165, request crossing runway 07 to reach the cargo apron. ATC: Oscar 165, hold short runway 07, crossing clearance will follow.",runway_crossing
+16,Flight Papa,"Pilot: Chennai Tower, Papa 176, request departure delay due to weather. ATC: Papa 176, roger, remain at the holding point and advise when ready.",departure_delay
+17,Flight Quebec,"Pilot: Chennai Approach, Quebec 187, unable assigned altitude due to traffic turbulence, request 1000 feet lower. ATC: Quebec 187, descend and maintain 6000 feet.",altitude_request
+18,Flight Romeo,"Pilot: Chennai Center, Romeo 198, request confirmation of assigned squawk. ATC: Romeo 198, squawk 4261.",transponder_query
+19,Flight Sierra,"Pilot: Chennai Ground, Sierra 209, radio check. ATC: Sierra 209, readability five, loud and clear.",radio_check
+20,Flight Tango,"Pilot: Chennai Tower, Tango 210, runway vacated, taxiing to stand 18. ATC: Tango 210, taxi stand 18 via Bravo and Echo.",runway_exit
+21,Flight Uniform,"Pilot: Chennai Approach, Uniform 221, request holding instructions. ATC: Uniform 221, hold at KELAR, inbound course 090, left turns, expect further clearance.",holding_instruction
+22,Flight Victor,"Pilot: Chennai Tower, Victor 232, landing gear indication is abnormal, request go-around and assistance. ATC: Victor 232, go around, climb 3000 feet, emergency services are alerted.",landing_gear_issue
+23,Flight Whiskey,"Pilot: Chennai Ground, Whiskey 243, request de-icing before departure. ATC: Whiskey 243, proceed to the designated de-icing area.",deicing_request
+24,Flight Xray,"Pilot: Chennai Approach, Xray 254, request latest runway wind and visibility. ATC: Xray 254, wind 070 degrees 9 knots, visibility 6 kilometers.",weather_information
+25,Flight Yankee,"Pilot: Chennai Tower, Yankee 265, ready for departure but cabin door indication remains open. ATC: Yankee 265, hold position and advise when the indication is resolved.",cabin_issue
+26,Flight Zulu,"Pilot: Chennai Center, Zulu 276, request higher altitude for fuel efficiency. ATC: Zulu 276, unable higher at present due to traffic, maintain flight level 240.",cruise_altitude_request
+27,Flight Atlas,"Pilot: Chennai Approach, Atlas 287, lost communication with company operations but aircraft radios are normal. ATC: Atlas 287, roger, continue on present frequency.",communication_issue
+28,Flight Beacon,"Pilot: Chennai Tower, Beacon 298, medical assistance required after landing for a passenger. ATC: Beacon 298, roger, medical team will meet you at the stand.",medical_assistance
+29,Flight Comet,"Pilot: Chennai Ground, Comet 309, request change of departure runway due to performance limitations. ATC: Comet 309, runway 07 approved, taxi via Alpha.",runway_change_request
+30,Flight Dragon,"Pilot: Chennai Approach, Dragon 320, we have an engine indication and request to land as soon as practical. ATC: Dragon 320, roger, priority landing approved, continue runway 07 approach.",engine_issue

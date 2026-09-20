@@ -1,0 +1,33 @@
+{
+  "LLM_PROVIDER": "openai",
+    "llm": {
+    "openai_model": "gpt-4o-mini",
+    "gemini_model": "gemini-3.5-flash",
+    "temperature": 0.3
+    },
+
+   "evaluation": {
+    "criteria": [
+      "readback_hearback_accuracy",
+      "phraseology_compliance",
+      "crm_coordination",
+      "situational_awareness"
+    ],
+    "score_range": [1, 5]
+  },
+
+  "classification": {
+    "labels": [
+      "routine_operations",
+      "minor_abnormal_event",
+      "critical_emergency",
+      "weather_deviation"
+    ]
+  },
+
+  "data": {
+    "transcript_file": "data/atc_pilot_transcripts.csv",
+    "transcript_column": "transcript",
+    "expected_call_type_column": "expected_call_type"
+  }
+}
